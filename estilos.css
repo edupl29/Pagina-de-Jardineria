@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0F7FA; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #388E3C; 
+}
+
+.producto {
+    width: 300px;
+    height: 350px;
+    background-color: #FFFFFF; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: transform 0.2s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+.producto img {
+    max-width: 80%;
+    max-height: 60%;
+    border-radius: 5px;
+    margin: 0 auto 20px;
+}
+
+.nombre-precio {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.nombre-precio h3 {
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 24px; 
+    color: #388E3C; 
+    margin-bottom: 5px;
+}
+
+.nombre-precio p {
+    font-size: 18px; 
+    color: #757575; 
+}
+
+.cantidad {
+    font-size: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: #81C784; 
+    border-radius: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #3e8e41;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 120px; 
+    width: auto;
+}
+
+nav h1 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+nav button {
+    background-color: #73b504;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #5e9203;
+}
+
+
+.main-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.main-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #3e8e41;
+}
+
+.main-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.main-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+
+
+footer {
+    background-color: #3e8e41;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    color: #3e8e41;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #73b504;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #5e9203;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
